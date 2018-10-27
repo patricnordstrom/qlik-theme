@@ -1,0 +1,5 @@
+/* Set font */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+.qv-object * {
+font-family: 'Source Sans Pro', sans-serif;
+}

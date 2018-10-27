@@ -1,0 +1,209 @@
+﻿{
+	"_variables": {
+		"@QlikGreen":    "#009845",
+		"@QlikGreen_lt": "#B2E0C6",
+		"@Tanzanite":    "#1C355E",
+		"@Tanzanite_lt": "#BAC2CE",
+		"@Slate": 	     "#244B5A",
+		"@Slate_lt": 	 "#BDC9CD",
+		"@Turquoise":    "#006580",
+		"@Turquoise_lt": "#B2D0D8",
+		"@Aquamarine":   "#10CFC9",
+		"@Aquamarine_lt":"#B7F0EE",
+		"@Wine":         "#870064",
+		"@Wine_lt":      "#DBB2D0",
+		"@Amethyst":     "#655DC6",
+		"@Amethyst_lt":  "#D1CEED",
+		"@Stone":        "#C4CFDA",
+		"@Stone_lt":     "#EDF0F3",
+		"@Sapphire":     "#005CB9",
+		"@Sapphire_lt":  "#B2CEEA",
+		"@Emerald":      "#006937",
+		"@Emerald_lt":   "#B2D2C2",
+		"@Ruby":         "#E7004C",
+		"@Ruby_lt":      "#F7B2C9",
+		"@QlikGrey":     "#54565A",
+		"@QlikGrey_lt":  "#CBCCCD",
+		"@Coral":        "#FF8E9F",
+		"@Coral_lt":     "#FFDDE2",
+		"@Topaz":        "#FFC72A",
+		"@Topaz_lt":     "#FFEDBF",
+		"@Peridot":      "#C2D500",
+		"@Peridot_lt":   "#EDF2B2"
+	},
+	"customStyles": [{
+		"cssRef": "theme.css",
+		"classRef": "my-theme"
+	}],	
+	"dataColors": {
+		"primaryColor": "@Tanzanite", 
+		"othersColor": "@Stone",
+		"errorColor": "@Coral",
+		"nullColor": "@Stone",
+		"selectionColor": "@Sapphire"
+	},
+	"palettes": {
+		"data": [
+			{
+				"name": "8 Colors",
+				"translation": "properties.colorNumberOfColors.12",
+				"propertyValue": "8",
+				"type": "pyramid",
+				"scale": [
+					[ 
+"@Tanzanite",
+"@Slate",
+"@Turquoise",
+"@QlikGreen",
+"@Aquamarine",
+"@Wine",
+"@Amethyst",
+"@Stone"
+					]
+				]
+			},
+			{
+				"name": "15 Colors",
+				"translation": "properties.colorNumberOfColors.100",
+				"propertyValue": "15",
+				"type": "row",
+				"scale": [
+
+"@Sapphire",     
+"@Emerald",      
+"@Ruby",         
+"@QlikGrey",     
+"@Coral",        
+"@Topaz",        
+"@Peridot",      
+"@QlikGreen",    
+"@Tanzanite",    
+"@Slate", 	    
+"@Turquoise",    
+"@Aquamarine",   
+"@Wine",         
+"@Amethyst",     
+"@Stone"        
+				]
+			}
+		],
+		"ui": [
+			{
+				"name": "Palette",
+				"colors": [
+					"none",
+"@QlikGreen",
+"@Tanzanite",
+"@Slate",
+"@Turquoise",
+"@Aquamarine",
+"@Wine",
+"@Amethyst",
+"@Stone",
+"@Sapphire",
+"@Emerald",
+"@Ruby"
+				]
+			}
+		]
+	},
+	"scales": [
+		{
+			"name": "Sequential Gradient",
+			"translation": "properties.colorScheme.sequential",
+			"type": "gradient",
+			"propertyValue": "sg",
+			"scale": [ 
+"@QlikGreen",
+"@Topaz",
+"@Topaz_lt"
+			]
+		},
+		{
+			"name": "Sequential Classes",
+			"translation": "properties.colorScheme.sequentialC",
+			"propertyValue": "sc",
+			"type": "class",
+			"scale": [ 
+"@QlikGreen",
+"@Topaz",
+"@Topaz_lt"
+			]
+		},
+		{
+			"name": "Diverging gradient",
+			"translation": "properties.colorScheme.diverging",
+			"propertyValue": "dg",
+			"type": "gradient",
+			"scale": [ 
+"@Tanzanite",
+"@Tanzanite_lt",
+"@Wine_lt",
+"@Wine"	
+			]
+		},
+		{
+			"name": "Diverging Classes",
+			"translation": "properties.colorScheme.divergingC",
+			"propertyValue": "dc",
+			"type": "class",
+			"scale": [ 
+"@Tanzanite",
+"@Tanzanite_lt",
+"@Wine_lt",
+"@Wine"	
+			]
+		},
+		{
+			"name": "Sequential alt 1",
+			"propertyValue": "s8",
+			"type": "class",
+			"scale": [ 
+"@Turquoise",
+"@Aquamarine",		
+"@Aquamarine_lt"		
+			]
+		},
+		{
+			"name": "Sequential alt 2",
+			"propertyValue": "s4",
+			"type": "class",
+			"scale": [ 
+"@Ruby",
+"@Ruby_lt",
+"@Stone_lt"		
+			]
+		},
+		{
+			"name": "Sequential alt 3",
+			"propertyValue": "s3",
+			"type": "class",
+			"scale": [ 
+"@Sapphire",
+"@Sapphire_lt"		
+			]
+		},		
+		{
+			"name": "Diverging alt 1",
+			"propertyValue": "d1",
+			"type": "class",
+			"scale": [ 
+"@Amethyst",
+"@Amethyst_lt",
+"@Coral_lt",
+"@Coral"
+			]
+		},
+		{
+			"name": "Diverging alt 2",
+			"propertyValue": "d2",
+			"type": "class",
+			"scale": [ 
+"@Turquoise",
+"@Turquoise_lt",
+"@Peridot_lt",
+"@Peridot"
+			]
+		}
+	]
+}
