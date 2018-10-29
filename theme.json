@@ -36,7 +36,7 @@
 		"classRef": "my-theme"
 	}],	
 	"dataColors": {
-		"primaryColor": "@Tanzanite", 
+		"primaryColor": "@Wine", 
 		"othersColor": "@Stone",
 		"errorColor": "@Coral",
 		"nullColor": "@Stone",
@@ -51,12 +51,12 @@
 				"type": "pyramid",
 				"scale": [
 					[ 
+"@Wine",
+"@QlikGreen",
+"@Turquoise",
 "@Tanzanite",
 "@Slate",
-"@Turquoise",
-"@QlikGreen",
 "@Aquamarine",
-"@Wine",
 "@Amethyst",
 "@Stone"
 					]
@@ -92,12 +92,12 @@
 				"name": "Palette",
 				"colors": [
 					"none",
+"@Wine",
 "@QlikGreen",
+"@Turquoise",
 "@Tanzanite",
 "@Slate",
-"@Turquoise",
 "@Aquamarine",
-"@Wine",
 "@Amethyst",
 "@Stone",
 "@Sapphire",
